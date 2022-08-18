@@ -1,0 +1,26 @@
+@charset "utf-8";
+html{
+    font-size: 1.5em;
+}
+div{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    border: 10px solid violet;
+    }
+
+.com-border-box {
+    background-color: aquamarine;
+    box-sizing: border-box;
+}
+/* Quando colocamos o border box ele meio que iá fazer para nós o calculo para que o valor total do elemento dê o valor que colocamoscomo valor em nosso código! */  
+
+
+.sem-border-box {
+background-color: bisque;
+}
+/* Quando não colocamos o border-box ele irá fazer do calculo de de todas as declarações que colocamos para gerar a medida total do elemento. ficando assim 
+width + padding + padding + border + border
+200 + 10 + 10 + 10 + 10 =240px */
+
+
